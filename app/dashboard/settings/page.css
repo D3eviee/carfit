@@ -1,0 +1,92 @@
+.settings-page-title{
+    margin-bottom: 50px;
+}
+
+.settings-page-title h1{
+    margin: 0px;
+    padding: 0px;
+    font-size:27px;
+    font-weight: 600;
+    color: #000000;
+}
+.settings-page-title h3{
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    font-size:14px;
+    font-weight: 300;
+    color: #333333;
+}
+
+.settings-page-menu{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    font-size:12px;
+    font-weight: 400;
+}
+
+.settings-page-menu-item{
+    padding: 7px 20px;
+    border-radius: 7px;
+    color: #333;
+    box-shadow: 0px 1px 2px 0px #33333333;
+    border: 0.5px solid #333333;
+    box-sizing: border-box;
+}
+
+.settings-page-menu-item:hover{
+    cursor: pointer;
+    background-color: #EEE;;
+}
+
+.active{
+    background-color: #333333;
+    color: #FFF;
+}
+
+.active:hover{
+    background-color: #444;
+}
+
+.settings-page-grid{
+    width: 1077px;
+    margin-top: 30px;
+    display: grid;
+    gap:30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.settings-page-grid-item{
+    width: 307px;
+    padding: 30px 15px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    display: flex;
+    gap:15px;
+}
+
+.settings-page-grid-item:hover{
+    background-color: #FAFAFA;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.settings-page-grid-item-icon{
+    margin-top: -20px;
+}
+
+.settings-page-grid-item h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.settings-page-grid-item p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    color: #777;
+    font-weight: 300;
+}

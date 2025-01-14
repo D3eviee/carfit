@@ -1,0 +1,102 @@
+.add-stuff-members-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.add-stuff-members-container-title{
+    padding: 15px 0px;
+    border-bottom: 0.5px solid #CCC;
+}
+
+.add-stuff-members-container-title h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.add-stuff-members-container-form{
+    padding: 30px 40px;
+}
+
+.add-stuff-members-container-form-phone{
+    display: flex;
+    gap: 10px;
+}
+
+.add-stuff-members-container-form-phone::before{
+    content: "PREFIX";
+    position: absolute;
+    font-size: 9px;
+    color: #AAAAAA;
+    font-weight: 400;
+    padding: 1px;
+    background-color: #FFFFFF;
+    transform: translate(6px, -5px);
+}
+
+.add-stuff-members-container-form-phone-prefix{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    max-height: 39px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-stuff-members-container-form-phone-prefix img{
+    padding: 5px 12px;
+    border-right: 0.5px solid #AAAAAA;
+}
+
+.add-stuff-members-container-form-phone select{
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+}
+
+.add-stuff-members-container-buttons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding: 0px 40px;
+    font: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #FFF;
+}
+
+.add-stuff-members-container-buttons-cancel{
+    background-color: #D05151;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #aaaaaa70;
+}
+
+
+.add-stuff-members-container-buttons-add{
+    background-color: #333333;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #AAAAAA70;
+}
+
+.add-stuff-members-container-buttons-cancel:hover{
+    cursor: pointer;
+    background-color: #C04040;
+}
+
+.add-stuff-members-container-buttons-add:hover{
+    cursor: pointer;
+    background-color: #222222;
+}

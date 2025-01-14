@@ -1,0 +1,32 @@
+.event-tab-container{
+    width: 325px;
+    background-color: #FFF;
+    height: 307px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px #CCCCCC35;
+    box-shadow: 0px -1px 0px 1px #33333315 inset;
+    overflow: hidden;
+}
+
+.event-tab-container h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.event-tab-container-tasks-list{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: 258px;
+    overflow: scroll;
+}
+
+.event-tab-container-tasks-list::-webkit-scrollbar{
+    display: none;
+}

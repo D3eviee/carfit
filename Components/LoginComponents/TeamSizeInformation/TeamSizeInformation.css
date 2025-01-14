@@ -1,0 +1,32 @@
+.team-size-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.team-size-container-form{
+    padding: 0px 40px;
+    margin-bottom: 50px;
+    
+}
+
+.team-size-container-form-radio{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 2px;
+}
+
+.team-size-container-form-radio input[type="radio"]{
+    box-sizing: border-box;
+    padding:10px;
+    accent-color: red;
+}
+
+.team-size-container-form-radio label{
+    font-weight: 300;
+    font-size: 14px;
+    color:#777;
+}

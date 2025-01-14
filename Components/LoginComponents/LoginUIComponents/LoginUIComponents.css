@@ -1,0 +1,125 @@
+/*Topbar style*/
+.topbar-container{
+    box-sizing: border-box;
+    height: 70px;
+    padding-left: 20px;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.topbar-container h2{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: 300;
+    transform: translateY(80%);
+    color:#333333
+}
+
+.topbar-container h2:hover{
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/*FormTitle style*/
+.form-title-container{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-title-container h2{
+    margin:0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 40px;
+}
+
+.form-title-container h4{
+    margin:0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #777777;
+}
+
+/*text input style*/
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    font-size: 14px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder{
+    font-weight: 300;
+}
+
+/*button  style*/
+.button-container{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #333333;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #AAAAAA25;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button-container:hover{
+    background-color: #222222;
+}
+
+/*categoryTab  style*/
+.category-tab-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px 15px 2px;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.category-tab-container:first-of-type{
+    padding-top: 0px;
+}
+
+.category-tab-container:last-of-type{
+    border:none;
+}
+
+.category-tab-container-content img{
+    border-radius: 100%;
+}
+
+.category-tab-container-content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.category-tab-container-content h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.category-tab-container h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #777;
+}

@@ -1,0 +1,12 @@
+.address-information-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.address-information-container-form{
+    padding: 0px 40px;
+    margin-bottom: 30px;
+}

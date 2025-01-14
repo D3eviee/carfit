@@ -1,0 +1,40 @@
+.calendar-nav-box{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #F6F5F2;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    width: 158px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendar-nav-box p{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 78px;
+    font-size: 14px;
+    padding: 6px 0px;
+    font-weight: 500;
+    margin-left: 2px;
+    border-radius: 3px;
+    border: 1px solid #F6F5F2;
+    text-align: center;
+}
+
+.calendar-nav-box p:first-of-type{
+    margin-left: 0px;
+}
+
+.calendar-nav-box p:hover{
+    background-color: #E8E8E8;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #E8E8E8;
+    border: 1px solid #D4D4D4;
+}

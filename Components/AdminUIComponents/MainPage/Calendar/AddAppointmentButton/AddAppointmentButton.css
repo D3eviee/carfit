@@ -1,0 +1,16 @@
+.appointment-button{
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    background-color: #F25287;
+    padding: 10px 14px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 1px 0px #00000040;
+    text-shadow: 0px 1px 0px #00000010;
+}
+
+.appointment-button:hover{
+    background-color: #F36398;
+    cursor: pointer;
+}

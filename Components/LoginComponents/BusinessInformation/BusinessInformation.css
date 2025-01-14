@@ -1,0 +1,86 @@
+.business-information-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.business-information-container-form{
+    box-sizing: border-box;
+    margin: 0px 40px;
+    border-bottom: 0.5px solid #CCCCCC;
+    padding-bottom: 20px;
+}
+
+.business-information-container-agreements{
+    padding: 20px 40px 0px 40px;
+    display: flex;
+    align-items:start;
+    gap: 5px;
+}
+
+.business-information-container-agreements input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 0.5px solid #AAAAAA inset;
+    border-radius: 3px;
+}
+
+.business-information-container-agreements-text h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 300; 
+    color: #333333;  
+    text-align: left;
+}
+
+.business-information-container-form-phone{
+    display: flex;
+    gap: 20px;
+}
+
+.business-information-container-form-phone-prefix{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 0px;
+    height: 39px;
+    width: 92px;
+}
+
+.business-information-container-form-phone-prefix h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    width: 46px;
+    border-right: 0.5px solid #AAAAAA;
+    text-align: center;
+}
+
+.business-information-container-form-phone-prefix p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #555555;
+    width: 46px;
+    text-align: center;
+}
+
+.business-information-container-agreements-text p{
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 300;  
+    color:#777777;
+    text-align: left;
+}

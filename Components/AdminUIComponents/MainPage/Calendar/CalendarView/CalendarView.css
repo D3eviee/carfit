@@ -1,0 +1,104 @@
+.calendar-view-box{
+    width: 1197px;
+    margin-top: 25px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 0px 1px 5px #CCCCCC30;
+    border-radius: 15px;
+    pointer-events: auto;
+}
+
+.calendar-view-box-detailed-navigation{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.calendar-view-box-detailed-navigation h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 5px;
+}
+
+.calendar-view-box-detailed-navigation span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+}
+
+.calendar-view-box-detailed-navigation-arrow{
+    height: 30px;
+    width: 30px;
+    background-color: #F0F0F0;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rot{
+    transform: rotate(180deg);
+}
+
+.calendar-view-box-days{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.calendar-view-box-days p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.calendar-view-box-table{
+    height: 545px;
+    position: relative;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.calendar-view-box-table::-webkit-scrollbar{
+    display: none;
+}
+
+
+.calendar-view-box-time p{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    border-bottom: 1px solid #D4D4D4;
+    border-right: 1px solid #D4D4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar-view-box-event-box p{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    height: 80px;
+    border-bottom: 1px solid #D4D4D4;
+    border-right: 1px solid #D4D4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

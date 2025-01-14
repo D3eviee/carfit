@@ -1,0 +1,238 @@
+.settings-page-navigation{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.settings-page-navigation-arrow{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    background-color: #333;
+    box-shadow: 0px 1px 2px 0px #33333333;
+}
+
+.settings-page-navigation-arrow:hover{
+    background-color: #555;
+    cursor: pointer;
+}
+
+.settings-page-navigation-title{
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 1px solid #D4D4D4;
+    font-size: 13px;
+}
+
+.settings-page-navigation-title p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: #333;
+}
+
+.settings-page-navigation-title p > span{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    color: #777;
+}
+
+.settings-page-content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.settings-page-sub-navigation{
+    height: 168px;
+    padding: 15px 20px;
+    border: 0.5px solid #D4D4D4;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.settings-page-sub-navigation-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.settings-page-sub-navigation-tabs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-page-sub-navigation-tabs p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+    margin: 0px;
+    padding: 8px 10px;
+    letter-spacing: 0.2px;
+}
+
+.settings-page-sub-navigation-tabs-active{
+    background-color: #333333;
+    color: #FFF!important;
+    border-radius: 7px;
+    font-weight: 400!important;
+    box-shadow: 0px 1px 2px 0px #ACACAC25;
+}
+
+.settings-page-content-right{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.settings-page-content-title{
+    height: 38px;
+    padding: 20px;
+    border: 0.5px solid #D4D4D4;
+    border-radius: 10px;
+}
+
+.settings-page-content-title h2{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#333333;
+}
+
+.settings-page-content-title p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 300;
+    color:#777777;
+}
+
+.settings-page-content-form{
+    padding: 30px 70px;
+    border: 0.5px solid #D4D4D4;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px #ACACAC30;
+}
+
+.settings-page-content-form-button-container{
+    display: flex;
+    justify-content: end;
+}
+
+.settings-page-content-form-button{
+    margin-left: 100%;
+    color:#F25287;
+    border-radius: 5px;
+    padding: 5px 19px;
+    background-color: #FFF;
+    border: 0.5px solid #F25287;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.1s all ease;
+    box-shadow: 0px 1px 2px 0px #D4D4D4;
+}
+
+.settings-page-content-form-button:hover{
+    background-color: #F25287;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.settings-page-content-form-grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:40px;
+}
+
+.settings-page-content-form-grid-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.settings-page-content-form-grid-item h3{
+    padding: 0px;
+    margin: 0px;;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4%;
+}
+
+.settings-page-content-form-grid-item p{
+    max-width: 230px;
+    padding: 0px;
+    margin: 0px;;
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4%;
+}
+
+.settings-page-content-form-locations-item{
+    margin-top: 15px;
+    display: flex;
+    padding: 15px 5px 15px 15px;
+    border-radius: 7px;
+    border: 0.5px solid #D4D4D4;
+    background-color: #F6F6F6;
+    position: relative;
+}
+
+.settings-page-content-form-locations-item img{
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.settings-page-content-form-locations-item-title{
+    margin-top: 3px;
+    max-width: 270px;
+}
+
+.settings-page-content-form-locations-item-title h2{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+    
+}
+
+.settings-page-content-form-locations-item-title h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #555;
+    word-wrap: break-word;
+    font-weight: 300;
+}
+
+.settings-page-content-form-locations-item-title-icon{
+    position: absolute;
+    right: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    color:#333;
+    background-color: #D4D4D4;
+    border: 0.25px solid #D4D4D4;
+}
+
+.settings-page-content-form-locations-item-title-icon:hover{
+    cursor: pointer;
+    border: 0.25px solid #333;
+}

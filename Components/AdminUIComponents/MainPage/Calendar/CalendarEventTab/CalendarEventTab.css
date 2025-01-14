@@ -1,0 +1,26 @@
+.calendar-event-tab-container{
+    width: 150px;
+    box-sizing: border-box;
+    background-color: #9088D4;
+    padding: 7px;
+    border-radius: 7px;
+    position: absolute;
+    margin-left: 4px;
+}
+
+.calendar-event-tab-container h3{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.calendar-event-tab-container h5{
+    padding: 0px;
+    margin: 0px;
+    font-size: 9px;
+    color: #FFF;
+    font-weight: 300;
+}

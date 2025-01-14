@@ -1,0 +1,67 @@
+.stuff-members-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.stuff-members-container-form{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.stuff-members-container-form-add-members{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top:0.5px solid #CCCCCC;
+    border-bottom: 0.5px solid #CCCCCC;
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    color:#222;
+}
+
+.stuff-members-container-form-add-members:hover{
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+
+.stuff-members-container-form-add-members h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+.stuff-members-container-form-add-members p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}
+
+.stuff-members-container-form-member{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;  
+    border-top: 0.5px solid #CCCCCC;
+}
+
+.stuff-members-container-form-member h3{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 3px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.stuff-members-container-form-member p{
+    margin: 0px;
+    padding: 0px;
+    color: #777777;
+    font-size: 10px;
+    font-weight: 400;
+}

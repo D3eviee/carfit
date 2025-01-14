@@ -1,0 +1,143 @@
+.add-new-service-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.add-new-service-container-title{
+    padding: 15px 0px;
+    border-bottom: 0.5px solid #CCC;
+}
+
+.add-new-service-container-title h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.add-new-service-container-form{
+    padding: 50px 40px;
+}
+
+.add-new-service-container-form-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-new-service-container-form-time h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.add-new-service-container-form-time-inputs{
+    display: flex;
+    gap:20px;
+}
+
+.add-new-service-container-form-time-inputs input[type="text"]{
+    width: 92px;
+    margin: 0px;
+}
+
+.add-new-service-container-form-time-inputs-hours::before{
+    content: "HOURS";
+}
+
+.add-new-service-container-form-time-inputs-minutes::before{
+    content: "MINUTES";
+}
+
+.add-new-service-container-form-time-inputs-hours::before, 
+.add-new-service-container-form-time-inputs-minutes::before{
+    position: absolute;
+    font-size: 9px;
+    color: #AAAAAA;
+    font-weight: 400;
+    padding: 1px;
+    background-color: #FFFFFF;
+    transform: translate(6px, -5px);
+}
+
+.add-new-service-container-form-price{
+    display: flex;
+    align-items: center;
+    gap:106px;
+    position: relative
+}
+
+.add-new-service-container-form-price h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.add-new-service-container-form-price input[type="text"]{
+    margin: 0px;
+    display: block;
+}
+
+.add-new-service-container-form-price-input{
+    position: relative;
+}
+
+.add-new-service-container-form-price-input::before{
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    content: "USD";
+    padding: 7px 10px;
+    z-index: 1;
+    border-left: 0.5px solid #AAAAAA;
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.add-new-service-container-buttons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding: 0px 40px;
+    font: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #FFF;
+}
+
+.add-new-service-container-buttons-cancel{
+    background-color: #D05151;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #aaaaaa70;
+}
+
+
+.add-new-service-container-buttons-add{
+    background-color: #333333;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #AAAAAA70;
+}
+
+.add-new-service-container-buttons-cancel:hover{
+    cursor: pointer;
+    background-color: #C04040;
+}
+
+.add-new-service-container-buttons-add:hover{
+    cursor: pointer;
+    background-color: #222222;
+}

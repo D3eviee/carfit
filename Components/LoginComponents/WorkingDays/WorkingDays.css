@@ -1,0 +1,50 @@
+.working-days-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.working-days-container-form{
+    padding: 0px 40px;
+    padding-bottom: 50px;
+}
+
+.working-day-card-container{
+    display: grid;
+    columns: 4;
+    grid-template-columns: 1fr 8fr 7fr 1fr;
+    padding: 15px 5px;
+    align-items: center;
+    border-top:0.5px solid #CCCCCC;
+}
+
+.working-day-card-container:last-of-type{
+    border-bottom:0.5px solid #CCCCCC;
+}
+
+.working-day-card-container input[type="checkbox"]{
+    scale: 1.5;
+    margin: 0px;
+}
+
+.working-day-card-container h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 10px;
+}
+
+.working-day-card-container p{
+    padding: 0px;
+    box-sizing: border-box;
+    padding-right: 40px;
+    text-align: right;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+}

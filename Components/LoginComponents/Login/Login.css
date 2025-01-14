@@ -1,0 +1,57 @@
+.login-tab-container{
+    padding-top: 30px;
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.login-tab-container-form{
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-tab-container-form input[type="email"],
+.login-tab-container-form input[type="password"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    font-size: 14px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder{
+    font-weight: 300;
+}
+
+.login-tab-container-form p {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#d63d3d;
+}
+
+.login-tab-container-form-button{
+    width: 345px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #333333;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #AAAAAA25;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.login-tab-container-form-button:hover{
+    cursor: pointer;
+    background-color: #222222;
+}

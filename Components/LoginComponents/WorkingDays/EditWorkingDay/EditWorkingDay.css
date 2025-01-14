@@ -1,0 +1,119 @@
+.edit-working-day-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.edit-working-day-container-title{
+    padding: 15px 0px;
+    border-bottom: 0.5px solid #CCC;
+}
+
+.edit-working-day-container h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.edit-working-day-container-form{
+    padding: 50px 40px;
+}
+
+.edit-working-day-container-form-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-working-day-container-form p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+.edit-working-day-container-form-inputs{
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    gap:25px;   
+}
+
+.edit-working-day-container-form-inputs-open{
+    position: relative;
+}
+
+.edit-working-day-container-form-inputs-close{
+    position: relative;
+}
+
+.edit-working-day-container-form-inputs-open::before{
+    content: "START";
+}
+
+.edit-working-day-container-form-inputs-close::before{
+    content: "END";
+}
+
+.edit-working-day-container-form-inputs-open::before,
+.edit-working-day-container-form-inputs-close::before{
+    position: absolute;
+    font-size: 9px;
+    color: #AAAAAA;
+    font-weight: 400;
+    padding: 1px;
+    background-color: #FFFFFF;
+    transform: translate(6px, -5px);
+    z-index: 1;
+}
+
+.edit-working-day-container-form-inputs select{
+    margin: 0px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    outline: none;
+    padding: 9px 19px;
+    box-sizing: border-box;
+}
+
+.add-stuff-members-container-buttons{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 0px 40px;
+    font: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #FFF;
+}
+
+.add-stuff-members-container-buttons-cancel{
+    background-color: #D05151;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #aaaaaa70;
+}
+
+
+.add-stuff-members-container-buttons-add{
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #AAAAAA70;
+}
+
+.add-stuff-members-container-buttons-cancel:hover{
+    cursor: pointer;
+    background-color: #C04040;
+}
+
+.add-stuff-members-container-buttons-add:hover{
+    cursor: pointer;
+    background-color: #222222;
+}

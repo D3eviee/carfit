@@ -1,0 +1,84 @@
+.add-services-container{
+    width: 424px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px 0px #66666615;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.add-services-container-form{
+    padding: 0px 40px;
+}
+
+.service-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 6fr 4fr 3fr 3fr; 
+    padding: 15px 5px;  
+    border-top:0.5px solid #CCCCCC;
+}
+
+.service-container h3{
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;   
+}
+
+.service-container h4{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 20px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;   
+}
+
+.service-container p{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 20px;
+    color: #777777;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.service-container-left{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 7px;
+}
+
+.add-services-container-form-add-service{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top:0.5px solid #CCCCCC;
+    border-bottom: 0.5px solid #CCCCCC;
+    padding: 10px 8px;
+    margin-bottom: 50px;
+    color:#222;
+}
+
+.add-services-container-form-add-service:hover{
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+
+.add-services-container-form-add-service h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+.add-services-container-form-add-service p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}
