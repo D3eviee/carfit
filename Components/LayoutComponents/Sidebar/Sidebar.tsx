@@ -41,7 +41,7 @@ export default function Sidebar(){
       <div className="sidebar-container-option">
         <FaChartLine size={24} color="#FFFFFF"/>
       </div>
-      <Link href="/dashboard/settings">
+      <Link href="/dashboard/settings?tab=details">
         <div className={`sidebar-container-option ${activePage == "settings" ? "active-link" : ""}`}>
           <IoMdSettings size={27} color="#FFFFFF"/>
         </div>
